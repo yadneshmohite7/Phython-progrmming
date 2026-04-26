@@ -1,0 +1,17 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Mar 24 11:17:06 2026
+
+@author: Yadnesh
+"""
+
+
+age = int(input("Enter your age: "))
+
+if age >= 18:
+    
+    print("You are eligible to enter the movie.")
+    
+else:
+    
+    print("You are not eligible to enter the movie.")
