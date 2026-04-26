@@ -1,0 +1,16 @@
+# Store marks of students in a list
+marks = [75, 82, 90, 68, 88]
+
+# Find total marks
+total = sum(marks)
+
+# Find average
+average = total / len(marks)
+
+# Find topper marks
+topper = max(marks)
+
+# Print results
+print("Marks:", marks)
+print("Average Marks:", average)
+print("Topper Marks:", topper)
