@@ -1,0 +1,15 @@
+num1  = int(input("Enter Number First:"))
+num2  = int(input("Enter Number Second:"))
+
+sum=num1+num2
+print("Addition=",sum)
+
+
+sub=num1-num2
+print("subtraction=",sub)
+
+multiply=num1*num2
+print("Multiplycation=",multiply)
+
+divide=num1%num2
+print("division=",divide)
