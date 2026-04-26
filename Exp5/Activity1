@@ -1,0 +1,32 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Mar 17 11:08:23 2026
+
+@author: Yadnesh
+"""
+
+# Create dictionary
+library = {
+    "Maths": 250,
+    "Physics": 300,
+    "Chemistry": 280
+}
+
+# Display original data
+print("Original Library Data:")
+print(library)
+
+# Take input from user
+book = input("Enter book name to update: ")
+
+# Check and update price
+if book in library:
+    new_price = float(input("Enter new price: "))
+    library[book] = new_price
+    print("Price updated successfully!")
+else:
+    print("Book not found!")
+
+# Display updated data
+print("Updated Library Data:")
+print(library)
