@@ -1,0 +1,17 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Mar 24 11:14:19 2026
+
+@author :Yadnesh
+"""
+
+
+speed = int(input("Enter speed km/h:"))
+
+if speed > 60: 
+    
+    print("overspeeding!Fine issued")
+    
+else:
+    
+    print("with in limit")
