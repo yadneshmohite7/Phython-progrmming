@@ -1,0 +1,16 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Mar 17 11:10:20 2026
+
+@author: Yadnesh
+"""
+
+# Roll numbers of students in two classes
+class_A = {1, 2, 3, 4, 5}
+class_B = {4, 5, 6, 7, 8}
+
+# Find common students
+common_students = class_A.intersection(class_B)
+
+# Display result
+print("Students present in both classes:", common_students)
